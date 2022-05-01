@@ -164,6 +164,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
+CORS_ALLOW_ALL_ORIGINS = True
+
 # custom user model
 AUTH_USER_MODEL = "users.NewUser"
 
